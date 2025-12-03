@@ -1,0 +1,4 @@
+để truy cập Feature test (chỉ xem các file test):
+-vào thư mục code -> kéo xuống chọn thư mục test -> thư mục Feature
+
+thư mục Feature chứa tất cả file test
