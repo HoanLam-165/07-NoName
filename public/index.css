@@ -1,0 +1,51 @@
+.searchContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+}
+
+.searchContainer #searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.Product-container {
+    display: flex;
+    gap: 15px; /* khoảng cách giữa các card */
+    overflow-x: auto; /* cho phép cuộn ngang */
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    height: 450px; /* cao khoảng hơn 2 card */
+    align-items: flex-start; /* căn top */
+    scroll-behavior: smooth; /* cuộn mượt */
+}
+
+.Product-card {
+    min-width: 200px; /* chiều rộng tối thiểu 1 card */
+    height: 200px;
+    flex-shrink: 0; /* không co lại khi nhiều card */
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.Product-card:hover {
+    transform: translateY(-5px);
+}
