@@ -1,0 +1,4 @@
+- Người có role admin có thể :
+ +, Tìm kiếm theo id người dùng.
+ +, Tìm kiếm theo bảng lọc : category, status.
+ +, tìm kiếm kết hợp cả id người dùng và bảng lọc.
