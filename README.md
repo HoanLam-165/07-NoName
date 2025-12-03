@@ -14,7 +14,8 @@ Mục đích của project và yêu cầu môi trường:
 
 1. Nếu đã cài composer, laravel, Chạy `composer create-project laravel/laravel [Ten_Project]`
 2. Bắt đầu thêm các file vào Project giống minh họa trong result.docx
-3. Kiểm tra file .env.testing, nếu không có thì tạo, nếu đã có, tiến hành liên kết database
+3. Kiểm tra file .env, nếu không có thì tạo, nếu đã có, tiến hành liên kết database
+    
 4. Chạy `php artisan key:generate`
 5. Chạy migration:(xóa 3 file mẫu sau khi create project và sau khi thêm các file migrate mới chạy)
     ```bash
